@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="114dp"
-        android:layout_height="105dp"
+        android:layout_height="106dp"
         android:onClick="calculate"
         android:text="Convert"
         app:layout_constraintBottom_toBottomOf="parent"
