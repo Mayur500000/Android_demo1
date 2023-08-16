@@ -18,6 +18,8 @@ public class MainActivity2 extends AppCompatActivity {
         button = findViewById(R.id.button2);
         textview = findViewById(R.id.textView2);
         editText = findViewById(R.id.editTextNumber);
+
+        // Button listener code
         /*button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,6 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     }
 
+    //made a different method for cal insted of using button listener
     public void calculate(View view){
         Toast.makeText(MainActivity2.this, "Button Working", Toast.LENGTH_SHORT).show();
         String s = editText.getText().toString();

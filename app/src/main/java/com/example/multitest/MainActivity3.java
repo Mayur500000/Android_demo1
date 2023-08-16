@@ -24,7 +24,7 @@ public class MainActivity3 extends AppCompatActivity {
         int m = Integer.parseInt(s);
         for(int i=m;i <=10;i++){
         ans = i*m;
-        buffer.append(m+"x"+i+"="+ans+"\n");
+        buffer.append(m+"x"+i+"="+ans+"\n"); //used buffer to store the values for an instance
         }
         textView.setText(buffer);
 
